@@ -1,3 +1,4 @@
+import { join } from 'node:path';
 /**
  * News Image Contest Entry — Deterministic Image Generation
  *
@@ -19,8 +20,6 @@
  */
 
 import { copyFileSync } from "node:fs";
-import { join } from "node:path";
-
 const source = new URL("./entry.png", import.meta.url);
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 
