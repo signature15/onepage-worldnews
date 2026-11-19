@@ -2,8 +2,9 @@
  * News Image Contest Entry — Deterministic Image Generation
  *
  * Wednesday 18 November 2026: "ONE DAY, SEVEN REGIONS"
- * 30 stories, 7 regions (Middle East, US, Asia, Europe, World, Ukraine, Africa),
- * one page. Copies this repository's pre-rendered newspaper front page (entry.png)
+ * Broadsheet front page: 30 stories, 7 regions (Middle East, US, Asia, Europe,
+ * World, Ukraine, Africa), one page, plus "The Day in Numbers" strip.
+ * Copies this repository's pre-rendered newspaper front page (entry.png)
  * to the contest output location: /output/entry.png by default, or the directory
  * named by MAKEFUN_OUTPUT_DIR when running outside the grading container.
  *
